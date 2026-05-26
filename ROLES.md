@@ -102,6 +102,6 @@ En Scrum, este rol es similar al Product Owner, encargado de representar la visi
 La alta gerencia estaría representada principalmente por:
 
 - Gabriel – Product Manager, desde la visión de negocio y estrategia del producto.
-- Diego – CTO / DevOps, desde las decisiones técnicas, infraestructura y viabilidad tecnológica.
+- Diego – DevOps, desde las decisiones técnicas, infraestructura y viabilidad tecnológica.
 
 Gabriel tomaría decisiones relacionadas con objetivos comerciales, prioridades y crecimiento de la plataforma, mientras que Diego supervisaría aspectos técnicos y operativos importantes para el desarrollo y mantenimiento de FitConnect.

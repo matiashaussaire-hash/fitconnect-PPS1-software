@@ -50,7 +50,7 @@ La aplicación incorpora gráficos de progreso, records personales, comunidad, g
 
 # ¿Por qué ordenaron estos problemas en ese nivel de impacto/importancia?
 
-El primer problema se consideró el más importante porque representa la barrera principal que impide a las personas comenzar a entrenar: el acceso económico y práctico al fitness. Sin resolver esto, muchos usuarios nunca llegarían a usar la plataforma.
+El primer problema se consideró el más importante porque representa la barrera principal que impide a las personas comenzar a entrenar: el acceso económico y práctico al fitness. Sin resolver esto muchos usuarios nunca llegarían a usar la plataforma.
 
 El segundo problema tiene un impacto alto porque, aunque alguien pueda entrenar desde casa, necesita orientación adecuada para hacerlo de manera segura y efectiva.
 

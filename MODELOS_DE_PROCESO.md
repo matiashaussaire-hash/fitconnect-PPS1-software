@@ -17,7 +17,7 @@ El modelo recomendado para FitConnect es Scrum/XP porque permite desarrollar la 
 ## Factores que influyeron en la decisión
 
 - Requisitos cambiantes.
-- Necesidad de feedback constante.
+- Necesidad de feedback.
 - Gran cantidad de funcionalidades.
 - Importancia de la experiencia de usuario.
 - Posibilidad de lanzar versiones incrementales.
