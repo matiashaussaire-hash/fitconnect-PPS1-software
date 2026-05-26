@@ -1,6 +1,6 @@
 # FitConnect
 
-Trabajo práctico de Ingeniería de Software basado en el caso de estudio “FitConnect”.
+Trabajo práctico de PPS1 basado en el caso de estudio “FitConnect”.
 
 ## Contenido
 - Conocimientos científicos y técnicos
