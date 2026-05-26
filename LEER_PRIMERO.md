@@ -13,4 +13,3 @@ Trabajo práctico de Ingeniería de Software basado en el caso de estudio “Fit
 - Integrante 2
 - Integrante 3
 
-## (porfavor presione ctrl+shift+v para activar el modo resumen en los .md)
