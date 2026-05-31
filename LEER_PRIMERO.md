@@ -10,6 +10,9 @@ Trabajo práctico de PPS1 basado en el caso de estudio “FitConnect”.
 
 ## Integrantes
 - Matias Ezequiel Haussaire
-- Integrante 2
-- Integrante 3
+- De Rosa Axel Nahuel
+- Joel Lasa
+- Petto Luna
+- Guevara Tomas
+- Matias Quiruga
 
