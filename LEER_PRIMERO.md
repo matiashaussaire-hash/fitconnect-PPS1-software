@@ -13,6 +13,6 @@ Trabajo práctico de PPS1 basado en el caso de estudio “FitConnect”.
 - De Rosa Axel Nahuel
 - Joel Lasa
 - Petto Luna
-- Guevara Tomas
+- Guebara Tomas
 - Matias Quiruga
 
