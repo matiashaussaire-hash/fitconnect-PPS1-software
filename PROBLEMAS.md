@@ -1,68 +1,38 @@
-# Identificación de Problemas
+## Identificación y Priorización de Problemas
 
-## 1. Falta de acceso accesible y flexible al entrenamiento físico
+El criterio de priorización se tomó en base a la cantidad de personas afectadas por cada problema.
 
-### Nivel de impacto
-1
-
-### Descripción del problema
-Muchas personas no pueden mantener una rutina de ejercicio debido a costos elevados de gimnasios, falta de equipamiento o incompatibilidad de horarios.
-
-### ¿A quién afecta este problema?
-A usuarios que desean entrenar desde casa o en cualquier lugar, especialmente estudiantes, trabajadores y personas con recursos limitados.
-
-### ¿Cómo FitConnect resuelve este problema?
-FitConnect ofrece entrenamientos de calistenia que no requieren equipamiento costoso y pueden realizarse desde cualquier lugar. Además, incluye programas gratuitos y acceso remoto a entrenadores personales.
+| Prioridad | Problema | ¿A quién afecta? | Solución de FitConnect |
+| :---: | :--- | :--- | :--- |
+| **1** | **Falta de flexibilidad horaria y geográfica:** Muchas personas tienen horarios de trabajo, estudio o actividades personales que les dificultan asistir regularmente a un gimnasio o coordinar entrenamientos presenciales. | Personas que desean ejercitarse pero no disponen de horarios compatibles con gimnasios o entrenadores. | Permite acceder a rutinas, programas y material de entrenamiento desde cualquier lugar y en cualquier momento, brindando mayor flexibilidad para entrenar. |
+| **2** | **Barreras económicas:** Algunas personas no pueden afrontar los costos de una membresía de gimnasio o de un entrenador personal. | Personas con recursos económicos limitados que desean realizar actividad física. | Ofrece una modalidad *freemium* que permite acceder gratuitamente a parte del contenido y a programas básicos de entrenamiento. |
+| **3** | **Limitación del alcance profesional:** Los entrenadores de calistenia suelen depender de clientes de su zona geográfica o de los asistentes a un gimnasio determinado, lo que limita las oportunidades de crecimiento profesional. | Entrenadores y profesionales de la calistenia que desean ampliar su cartera de clientes. | Permite que los entrenadores ofrezcan sus servicios, programas y sesiones personalizadas a usuarios de diferentes lugares, ampliando su alcance y generando nuevas oportunidades de ingresos. |
 
 ---
 
-## 2. Falta de orientación y personalización en el entrenamiento
+### Detalle de los Problemas Identificados
 
-### Nivel de impacto
-2
+### 1. Limitaciones de Tiempo y Espacio
+**Descripción del problema:** Muchas personas tienen horarios de trabajo, estudio o actividades personales que les dificultan asistir regularmente a un gimnasio o coordinar entrenamientos presenciales.
 
-### Descripción del problema
-Muchas personas no saben cómo empezar a entrenar correctamente, qué ejercicios hacer o cómo progresar sin lesionarse.
+**¿A quién afecta?:** A personas que desean ejercitarse pero no disponen de horarios compatibles con gimnasios o entrenadores.
 
-### ¿A quién afecta este problema?
-Principalmente a principiantes o personas sin experiencia en entrenamiento físico.
-
-### ¿Cómo FitConnect resuelve este problema?
-La plataforma conecta usuarios con entrenadores especializados y ofrece programas estructurados con progresiones y regresiones adaptadas al nivel físico de cada persona.
+**¿Cómo FitConnect resuelve este problema?:** La aplicación permite acceder a rutinas, programas y material de entrenamiento desde cualquier lugar y en cualquier momento, brindando mayor flexibilidad para entrenar.
 
 ---
 
-## 3. Dificultad para mantener la motivación y constancia
+### 2. Costos Elevados de Entrenamiento
+**Descripción del problema:** Algunas personas no pueden afrontar los costos de una membresía de gimnasio o de un entrenador personal.
 
-### Nivel de impacto
-3
+**¿A quién afecta?:** A personas con recursos económicos limitados que desean realizar actividad física.
 
-### Descripción del problema
-Muchas personas abandonan sus rutinas por falta de seguimiento, motivación o sensación de progreso.
-
-### ¿A quién afecta este problema?
-A usuarios que comienzan a entrenar pero tienen dificultades para mantener hábitos saludables a largo plazo.
-
-### ¿Cómo FitConnect resuelve este problema?
-La aplicación incorpora gráficos de progreso, records personales, comunidad, grupos temáticos y competencias amistosas que incentivan la continuidad y el compromiso.
+**¿Cómo FitConnect resuelve este problema?:** La plataforma ofrece una modalidad *freemium* que permite acceder gratuitamente a parte del contenido y a programas básicos de entrenamiento.
 
 ---
 
-# ¿Por qué ordenaron estos problemas en ese nivel de impacto/importancia?
+### 3. Limitación Geográfica para Entrenadores
+**Descripción del problema:** Los entrenadores de calistenia suelen depender de clientes de su zona geográfica o de los asistentes a un gimnasio determinado, lo que limita las oportunidades de crecimiento profesional.
 
-El primer problema se consideró el más importante porque representa la barrera principal que impide a las personas comenzar a entrenar: el acceso económico y práctico al fitness. Sin resolver esto muchos usuarios nunca llegarían a usar la plataforma.
+**¿A quién afecta?:** A entrenadores y profesionales de la calistenia que desean ampliar su cartera de clientes.
 
-El segundo problema tiene un impacto alto porque, aunque alguien pueda entrenar desde casa, necesita orientación adecuada para hacerlo de manera segura y efectiva.
-
-El tercer problema también es relevante, pero aparece una vez que el usuario ya comenzó a utilizar la aplicación. Por eso se considera de menor prioridad respecto a los anteriores.
-
----
-
-# ¿En qué basan su criterio de priorización?
-
-El criterio de priorización se basa en:
-
-- Cantidad de personas afectadas: problemas que impactan a más usuarios tienen mayor prioridad.
-- Gravedad del problema: qué tanto limita el acceso o uso de la plataforma.
-- Dependencia entre problemas: primero se resuelven los obstáculos que impiden iniciar el entrenamiento y luego los relacionados con la continuidad y experiencia del usuario.
-- Valor para el negocio: resolver los problemas principales aumenta la adopción y retención de usuarios en FitConnect.
+**¿Cómo FitConnect resuelve este problema?:** La plataforma permite que los entrenadores ofrezcan sus servicios, programas y sesiones personalizadas a usuarios de diferentes lugares, ampliando su alcance y generando nuevas oportunidades de ingresos.
