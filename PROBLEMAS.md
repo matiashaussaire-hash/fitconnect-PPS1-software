@@ -1,5 +1,3 @@
-# 2. Identificación y Priorización de Problemas
-
 
 | Prioridad| Problema | ¿A quién afecta? | ¿Cómo FitConnect lo resuelve? |
 | :---: | --- | --- | --- |
