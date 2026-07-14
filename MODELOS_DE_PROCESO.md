@@ -1,4 +1,3 @@
-# 3. Modelos de Proceso
 
 | Modelo de Proceso | Ventaja para FitConnect | Desventaja para FitConnect |
 |-------------------|-------------------------|----------------------------|
