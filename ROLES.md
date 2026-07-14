@@ -1,4 +1,3 @@
-# 4. Roles en el Equipo de Desarrollo
 
 A partir del análisis del proyecto y de la entrevista realizada con **Gabriel (Product Manager)**, proponemos la siguiente composición del equipo de desarrollo para el MVP de FitConnect.
 
