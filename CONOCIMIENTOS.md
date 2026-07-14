@@ -1,52 +1,29 @@
-## Propuesta de Desarrollo: FitConnect
+# 1. Conocimientos Científicos y Técnicos
 
-* **Conocimiento:** Instructor de Calistenia
+| Conocimiento | Tipo | Obtención | Etapa(s) del proceso ingenieril | Beneficio para FitConnect |
+| --- | --- | --- | --- | --- |
+| **Principios de progresión y periodización del entrenamiento en calistenia.** | Científico | Se obtendría mediante el estudio de bibliografía especializada, como *Periodization: Theory and Methodology of Training* (Bompa & Buzzichelli) o *Overcoming Gravity* (Steven Low), recomendadas durante la entrevista con Ana. | Definición y Desarrollo | Permitiría comprender cómo estructurar programas de entrenamiento progresivos y seguros para distintos niveles de experiencia, facilitando el diseño de rutinas acordes a los objetivos de cada usuario. |
+| **Evaluación física y planificación del entrenamiento en calistenia.** | Científico | Se obtendría mediante bibliografía especializada sobre evaluación física y planificación del entrenamiento, como *Overcoming Gravity* (Steven Low), donde se desarrollan conceptos de evaluación inicial, progresión, manejo de lesiones y planificación de rutinas. | Definición y Desarrollo | Ayudaría a diseñar el sistema de seguimiento de usuarios y a comprender qué información debe registrar la aplicación para que los entrenadores puedan planificar y adaptar los entrenamientos de forma adecuada. |
+| **Diseño de interfaces de usuario (UI) y experiencia de usuario (UX) orientados a reducir la fricción durante el onboarding.** | Técnico | Se obtendría mediante el estudio de bibliografía y guías de diseño de interfaces, como *Don't Make Me Think* (Steve Krug), complementadas con las recomendaciones surgidas durante la entrevista con Gabriel sobre minimizar la fricción al iniciar el uso de la aplicación. | Definición, Diseño y Desarrollo | Permitiría diseñar una interfaz intuitiva que facilite el proceso de incorporación del usuario, reduciendo el abandono temprano y favoreciendo una experiencia de uso sencilla desde el primer ingreso. |
+| **Arquitecturas Offline-First para aplicaciones móviles.** | Técnico | Se obtendría mediante la documentación oficial para desarrollo móvil (Android Developers), documentación de SQLite y material técnico sobre aplicaciones Offline-First, tomando como referencia las recomendaciones realizadas por Diego durante la entrevista. | Diseño, Desarrollo y Pruebas | Permitirá desarrollar una aplicación que continúe funcionando cuando el dispositivo tenga conectividad limitada, sincronizando la información posteriormente y mejorando la disponibilidad y la experiencia del usuario. |
 
-* **Tipo:** Científico
+## Referencias
 
-* **Obtención:** Se consultaría con un instructor de calistenia con experiencia en entrenamiento y planificación de rutinas.
+### Conocimientos científicos
 
-* **Etapa(s) del proceso:** Definición y Desarrollo.
+- Bompa, T. O., & Buzzichelli, C. *Periodization: Theory and Methodology of Training.*
+- Low, S. *Overcoming Gravity.*
 
-* **Beneficio:** Permitiría al equipo interiorizarse en los distintos ejercicios y técnicas propias de esta disciplina. 
- Además, ayudaría a definir qué tipos de rutinas, categorías de ejercicios, progresiones y videos serían necesarios dentro de la aplicación. 
- También aportaría una visión profesional sobre qué funcionalidades no deberían faltar para que la plataforma resulte útil, práctica y cómoda tanto para entrenadores como para usuarios.
+### Conocimientos técnicos
 
----
+- Krug, S. *Don't Make Me Think.*
+- Android Developers. *Guide to Offline-first apps.*
+- SQLite Documentation.
 
-* **Conocimiento:** Psicología orientada al deporte
+## Justificación de la selección de conocimientos
 
-* **Tipo:** Científico
+Los conocimientos identificados no fueron definidos únicamente a partir del análisis del enunciado, sino que surgieron durante el proceso de relevamiento realizado con los distintos stakeholders del proyecto.
 
-* **Obtención:** Se consultaría con un psicólogo especializado en deporte y actividad física.
+En particular, las entrevistas con **Gabriel (Product Manager)** permitieron identificar la necesidad de investigar principios de diseño de interfaces y experiencia de usuario para reducir la fricción durante el proceso de incorporación. La entrevista con **Diego (CTO/DevOps)** puso de manifiesto la importancia de conocer arquitecturas *Offline-First* y estrategias para garantizar el funcionamiento de la aplicación en dispositivos móviles con conectividad variable. Finalmente, la entrevista con **Ana (Head de Entrenadores)** permitió identificar la necesidad de comprender los fundamentos metodológicos del entrenamiento en calistenia, tales como la progresión, la periodización y la evaluación física de los usuarios.
 
-* **Etapa(s) del proceso:** Definición y Desarrollo.
-
-* **Beneficio:** Ayudaría a diseñar herramientas que fomenten la motivación y la constancia de los usuarios dentro de la aplicación. 
-
-* También podría contribuir al desarrollo de sistemas de seguimiento, logros, competencias amistosas y dinámicas de comunidad que incentiven la continuidad en el entrenamiento y reduzcan el abandono de las rutinas.
-
----
-
-* **Conocimiento:** Programación Back-End orientada a objetos
-
-* **Tipo:** Técnico
-
-* **Obtención:** Los desarrolladores del equipo deben contar con este conocimiento 
-a través de su formación técnica y experiencia previa.
-
-* **Etapa(s) del proceso:** Desarrollo y Prueba.
-
-* **Beneficio:** Es fundamental para estructurar la lógica del servidor, el manejo de bases de datos y asegurar el correcto funcionamiento interno y la escalabilidad de la aplicación.
-
----
-
-* **Conocimiento:** Programación Front-End y Diseño UX/UI
-
-* **Tipo:** Técnico
-
-* **Obtención:** Los desarrolladores y diseñadores del equipo deben contar con este conocimiento mediante capacitación técnica y práctica en desarrollo de interfaces.
-
-* **Etapa(s) del proceso:** Definición, Desarrollo y Prueba.
-
-* **Beneficio:** Es indispensable para construir la interfaz visual de la plataforma, garantizando que sea intuitiva, atractiva y accesible para los usuarios finales en cualquier dispositivo.
+A partir de estas necesidades detectadas durante el relevamiento, se seleccionó bibliografía y documentación técnica especializada que permitirá al equipo adquirir los conocimientos necesarios para el desarrollo de FitConnect.
