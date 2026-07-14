@@ -1,4 +1,3 @@
-# 1. Conocimientos Científicos y Técnicos
 
 | Conocimiento | Tipo | Obtención | Etapa(s) del proceso ingenieril | Beneficio para FitConnect |
 | --- | --- | --- | --- | --- |
