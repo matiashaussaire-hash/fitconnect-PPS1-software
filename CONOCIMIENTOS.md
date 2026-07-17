@@ -1,52 +1,48 @@
-## Propuesta de Desarrollo: FitConnect
 
-* **Conocimiento:** Instructor de Calistenia
+# 1. Conocimientos Necesarios para el Desarrollo de FitConnect
 
-* **Tipo:** Científico
+| Conocimiento | Tipo | Obtención | Etapa(s) del proceso ingenieril | Beneficio para FitConnect |
+|--------------|------|-----------|---------------------------------|---------------------------|
+| **Principios de progresión y periodización del entrenamiento en calistenia.** | Científico | Se obtendría mediante el estudio de bibliografía especializada, como *Periodization: Theory and Methodology of Training* (Bompa & Buzzichelli) o *Overcoming Gravity* (Steven Low), recomendadas durante la entrevista con Ana. | Definición y Desarrollo | Permitirá comprender cómo estructurar programas de entrenamiento progresivos y seguros para distintos niveles de experiencia, facilitando el diseño de rutinas acordes a los objetivos de cada usuario. |
+| **Evaluación física y planificación del entrenamiento en calistenia.** | Científico | Se obtendría mediante bibliografía especializada sobre evaluación física y planificación del entrenamiento, como *Overcoming Gravity* (Steven Low), donde se desarrollan conceptos de evaluación inicial, progresión, manejo de lesiones y planificación de rutinas. | Definición y Desarrollo | Ayudará a diseñar el sistema de seguimiento de usuarios y a comprender qué información debe registrar la aplicación para que los entrenadores puedan planificar y adaptar los entrenamientos de forma adecuada. |
+| **Diseño de interfaces de usuario (UI) y experiencia de usuario (UX) orientados a reducir la fricción durante el onboarding.** | Técnico | Se obtendría mediante el estudio de bibliografía y guías de diseño de interfaces, como *Don't Make Me Think* (Steve Krug), complementadas con las recomendaciones surgidas durante la entrevista con Gabriel sobre minimizar la fricción al iniciar el uso de la aplicación. | Definición, Diseño y Desarrollo | Permitirá diseñar una interfaz intuitiva que facilite el proceso de incorporación del usuario, reduciendo el abandono temprano y favoreciendo una experiencia de uso sencilla desde el primer ingreso. |
+| **Arquitecturas Offline-First para aplicaciones móviles.** | Técnico | Se obtendría mediante la documentación oficial de Android Developers, documentación de SQLite y material técnico sobre aplicaciones Offline-First, tomando como referencia las recomendaciones realizadas por Diego durante la entrevista. | Diseño, Desarrollo y Pruebas | Permitirá desarrollar una aplicación que continúe funcionando cuando el dispositivo tenga conectividad limitada, sincronizando la información posteriormente y mejorando la disponibilidad y la experiencia del usuario. |
+| **Desarrollo de aplicaciones móviles multiplataforma (React Native / Flutter).** | Técnico | Se obtendría mediante la documentación oficial de React Native y Flutter, además de tutoriales y guías especializadas sobre desarrollo móvil. Esta necesidad surgió durante la entrevista con Gabriel al definir los perfiles del equipo de desarrollo. | Diseño y Desarrollo | Permitirá desarrollar una aplicación móvil optimizada, compatible con múltiples dispositivos y alineada con los requisitos de rendimiento del proyecto. |
+| **Seguridad de datos sensibles y cumplimiento de normativas (HIPAA/GDPR).** | Técnico | Se obtendría mediante el estudio de la documentación oficial de HIPAA, GDPR y bibliografía sobre seguridad de la información y protección de datos personales, siguiendo las recomendaciones realizadas por Mara y Diego. | Diseño, Desarrollo y Pruebas | Permitirá implementar mecanismos adecuados para el almacenamiento, procesamiento y protección de datos sensibles, reduciendo riesgos legales y fortaleciendo la confianza en la plataforma. |
+| **Tecnologías de videollamadas en tiempo real (WebRTC).** | Técnico | Se obtendría mediante la documentación oficial de WebRTC y material técnico relacionado con servidores TURN/STUN y comunicaciones en tiempo real, según las recomendaciones realizadas por Diego. | Diseño, Desarrollo y Pruebas | Permitirá implementar videollamadas seguras y estables entre entrenadores y usuarios, contemplando mecanismos de respaldo ante fallas de conexión. |
 
-* **Obtención:** Se consultaría con un instructor de calistenia con experiencia en entrenamiento y planificación de rutinas.
+# Referencias
 
-* **Etapa(s) del proceso:** Definición y Desarrollo.
+## Conocimientos científicos
 
-* **Beneficio:** Permitiría al equipo interiorizarse en los distintos ejercicios y técnicas propias de esta disciplina. 
- Además, ayudaría a definir qué tipos de rutinas, categorías de ejercicios, progresiones y videos serían necesarios dentro de la aplicación. 
- También aportaría una visión profesional sobre qué funcionalidades no deberían faltar para que la plataforma resulte útil, práctica y cómoda tanto para entrenadores como para usuarios.
+- Bompa, T. O., & Buzzichelli, C. *Periodization: Theory and Methodology of Training.*
+- Low, S. *Overcoming Gravity.*
 
----
+## Conocimientos técnicos
 
-* **Conocimiento:** Psicología orientada al deporte
+- Krug, S. *Don't Make Me Think.*
+- Android Developers. *Guide to Offline-first apps.*
+- SQLite Documentation.
+- React Native Documentation.
+- Flutter Documentation.
+- WebRTC Documentation.
+- HIPAA Documentation.
+- GDPR Documentation.
 
-* **Tipo:** Científico
+# Justificación de la selección de conocimientos
 
-* **Obtención:** Se consultaría con un psicólogo especializado en deporte y actividad física.
+Los conocimientos identificados no fueron definidos únicamente a partir del análisis del enunciado, sino que surgieron durante el proceso de relevamiento realizado con los distintos stakeholders del proyecto.
 
-* **Etapa(s) del proceso:** Definición y Desarrollo.
+Las entrevistas permitieron identificar las áreas de conocimiento necesarias para desarrollar FitConnect desde diferentes perspectivas. Gabriel destacó la importancia del diseño de interfaces que minimicen la fricción durante el onboarding y la necesidad de contar con desarrolladores especializados en aplicaciones móviles. Diego señaló la importancia de arquitecturas *Offline-First*, WebRTC, seguridad de la información y disponibilidad del sistema. Mara incorporó los requisitos relacionados con el tratamiento de datos sensibles, el cumplimiento de las normativas HIPAA y GDPR y el almacenamiento seguro de la documentación. Finalmente, Ana aportó los conocimientos metodológicos necesarios para comprender cómo los entrenadores diseñan programas de entrenamiento, realizan evaluaciones físicas y aplican principios de progresión y periodización.
 
-* **Beneficio:** Ayudaría a diseñar herramientas que fomenten la motivación y la constancia de los usuarios dentro de la aplicación. 
-
-* También podría contribuir al desarrollo de sistemas de seguimiento, logros, competencias amistosas y dinámicas de comunidad que incentiven la continuidad en el entrenamiento y reduzcan el abandono de las rutinas.
-
----
-
-* **Conocimiento:** Programación Back-End orientada a objetos
-
-* **Tipo:** Técnico
-
-* **Obtención:** Los desarrolladores del equipo deben contar con este conocimiento 
-a través de su formación técnica y experiencia previa.
-
-* **Etapa(s) del proceso:** Desarrollo y Prueba.
-
-* **Beneficio:** Es fundamental para estructurar la lógica del servidor, el manejo de bases de datos y asegurar el correcto funcionamiento interno y la escalabilidad de la aplicación.
+A partir de estas necesidades detectadas durante el relevamiento, se seleccionó bibliografía y documentación técnica especializada que permitirá al equipo adquirir los conocimientos necesarios para el desarrollo de FitConnect.
 
 ---
 
-* **Conocimiento:** Programación Front-End y Diseño UX/UI
+## Fuente de las decisiones tomadas
 
-* **Tipo:** Técnico
-
-* **Obtención:** Los desarrolladores y diseñadores del equipo deben contar con este conocimiento mediante capacitación técnica y práctica en desarrollo de interfaces.
-
-* **Etapa(s) del proceso:** Definición, Desarrollo y Prueba.
-
-* **Beneficio:** Es indispensable para construir la interfaz visual de la plataforma, garantizando que sea intuitiva, atractiva y accesible para los usuarios finales en cualquier dispositivo.
+- [2026_06_16_Gabriel_Problemas.md](./2026_06_16_Gabriel_Problemas.md)
+- [2026_07_02_Gabriel_Equipo_desarrollo.md](./2026_07_02_Gabriel_Equipo_desarrollo.md)
+- [2026_06_19_Mara_verificacion_entrenadores.md](./2026_06_19_Mara_verificacion_entrenadores.md)
+- [2026_06_23_Diego_Arquitectura_mvp.md](./2026_06_23_Diego_Arquitectura_mvp.md)
+- [2026_06_26_Ana_entrenadores.md](./2026_06_26_Ana_entrenadores.md
