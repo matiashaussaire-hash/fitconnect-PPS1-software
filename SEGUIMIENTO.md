@@ -384,3 +384,94 @@ Esta conversación permitió:
 - Comprender la diferencia entre un **modelo de proceso** y las **metodologías utilizadas para ejecutar el desarrollo**.
 - Justificar que los cambios detectados durante el relevamiento no modifican el alcance del MVP, sino que se incorporan en incrementos futuros.
 - Fundamentar la respuesta correspondiente al **Punto 3 – Modelos de Proceso** del trabajo práctico.
+
+# Conversación con Enzo
+
+**Fecha de la consulta:** 06/09/2026  
+**Fecha de respuesta:** 07/09/2026  
+**Participantes:** Equipo 6 – Enzo 
+
+## Consulta realizada
+
+Hola Enzo, buenas tardes.
+
+Somos el Grupo 6 y estamos comenzando la segunda etapa del análisis del proyecto **FitConnect**. Como futuro usuario de la plataforma, nos gustaría conocer tus necesidades, dificultades y expectativas relacionadas con el entrenamiento y con el uso de una aplicación de estas características.
+
+Queríamos consultarte:
+
+1. ¿Cómo organizás actualmente tus entrenamientos y qué dificultades encontrás para mantener una rutina de manera constante?
+2. Si comenzaras a utilizar FitConnect, ¿qué información te parecería indispensable ingresar para que la aplicación pueda recomendarte una rutina adecuada?
+3. ¿Qué aspectos podrían dificultarte el registro y el comienzo de un entrenamiento o llevarte a abandonar la plataforma durante las primeras semanas?
+4. ¿Qué información necesitarías conocer antes de elegir un entrenador, por ejemplo, experiencia, certificaciones, especialidad, calificaciones, tarifa o disponibilidad?
+5. ¿Qué herramientas o información te resultarían útiles para observar tu progreso y mantener la motivación?
+6. Cuando contemos con un prototipo del proceso de registro y comienzo de una rutina, ¿qué aspectos considerarías importantes evaluar durante una prueba de usuario?
+
+Tu respuesta nos permitirá incorporar la perspectiva del usuario final y comprender mejor qué debería ofrecer FitConnect para brindar una experiencia sencilla y útil.
+
+Muchas gracias por tu tiempo.
+
+Saludos,  
+Grupo 6
+
+---
+
+## Respuesta de Enzo
+
+Enzo explicó que actualmente organiza sus entrenamientos de acuerdo con el tiempo que tiene disponible y que, en algunas ocasiones, utiliza rutinas obtenidas de internet. Señaló que su principal dificultad es mantener la constancia, especialmente cuando no sabe con claridad qué ejercicios realizar, cuánto tiempo descansar o cómo adaptar una rutina cuando dispone de poco tiempo. También manifestó que le resulta difícil determinar si está progresando.
+
+Respecto a la información necesaria para recibir una rutina adecuada, indicó que preferiría proporcionar únicamente los datos indispensables:
+
+- Objetivo principal.
+- Nivel de experiencia.
+- Días y tiempo disponibles.
+- Equipamiento disponible.
+- Edad y condición física general.
+- Lesiones, molestias o limitaciones.
+- Preferencias de entrenamiento.
+
+Además, consideró importante que la aplicación advierta al usuario y ofrezca alternativas seguras cuando se informe una lesión o molestia, especialmente en hombros, muñecas o codos.
+
+En relación con el comienzo del uso de la plataforma, señaló que podrían desmotivarlo un registro demasiado extenso, la solicitud de información cuyo propósito no resulte claro y la presencia de una cantidad excesiva de opciones o menús. También indicó que podría abandonar si la primera rutina no se adapta a su nivel, si los ejercicios no están correctamente explicados o si un contador automático registra incorrectamente las repeticiones.
+
+Como alternativa para facilitar el inicio, propuso que exista una opción de entrenamiento breve, por ejemplo, de veinte minutos. También consideró útil poder reprogramar una sesión o seleccionar una versión más corta sin perder el progreso realizado.
+
+Para elegir un entrenador, manifestó que necesitaría conocer:
+
+- Experiencia y certificaciones.
+- Especialidad.
+- Tipo de entrenamiento ofrecido.
+- Calificaciones y opiniones de otros usuarios.
+- Disponibilidad y modalidad de atención.
+- Tarifa final y servicios incluidos.
+- Tiempo estimado de respuesta.
+
+También expresó que preferiría probar inicialmente la aplicación mediante rutinas gratuitas antes de contratar a un entrenador.
+
+En cuanto al seguimiento del progreso, consideró útiles los récords personales, la cantidad de sesiones completadas, las repeticiones realizadas, el tiempo de entrenamiento y las progresiones alcanzadas. Indicó que preferiría observar su evolución semanal o mensual, en lugar de depender únicamente de una racha diaria. Asimismo, señaló que los recordatorios deberían ser configurables y no invasivos, y que sería útil recibir una devolución clara al finalizar cada sesión.
+
+Finalmente, explicó que durante una prueba de usuario evaluaría si una persona que nunca utilizó la aplicación puede registrarse, elegir un objetivo y comenzar una rutina en pocos minutos y sin ayuda. También consideró necesario verificar si el usuario puede:
+
+- Comprender qué ejercicio debe realizar.
+- Saber cuántas series y repeticiones debe completar.
+- Utilizar el temporizador de descanso.
+- Cargar o corregir manualmente sus resultados.
+- Finalizar la sesión y consultar su progreso.
+- Cerrar la aplicación o perder la conexión sin perder los datos.
+- Recibir una alternativa segura si declara una molestia.
+
+Para Enzo, la prueba sería exitosa si pudiera entrenar sin sentirse perdido, si los registros fueran confiables y si la aplicación lo ayudara a mantener el hábito aun cuando dispusiera de poco tiempo.
+
+---
+
+## Impacto en el proyecto
+
+Esta conversación permitió:
+
+- Incorporar la perspectiva de un futuro usuario de FitConnect al proceso de relevamiento.
+- Confirmar la utilidad de las **entrevistas** para conocer necesidades, dificultades y expectativas del usuario final.
+- Identificar aspectos concretos que podrían evaluarse posteriormente mediante **prototipos y pruebas de usuario**.
+- Profundizar las causas del abandono temprano y la necesidad de implementar un proceso de inicio simple, en concordancia con la prioridad definida previamente por Gabriel.
+- Identificar información mínima que el usuario estaría dispuesto a proporcionar para recibir una rutina adaptada.
+- Detectar necesidades relacionadas con entrenamientos breves, reprogramación de sesiones, seguimiento del progreso, recordatorios configurables y conservación de datos ante problemas de conexión.
+- Obtener criterios que podrían utilizarse posteriormente para definir requisitos funcionales, no funcionales y criterios de aceptación.
+- Identificar propuestas que deberán analizarse antes de incorporarlas como requisitos, como el conteo automático de repeticiones y la generación de alternativas frente a lesiones o molestias.
