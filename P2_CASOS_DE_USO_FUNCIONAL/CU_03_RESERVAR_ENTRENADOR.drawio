@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="cu03-fitconnect" name="CU-03">
+    <mxGraphModel dx="803" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#172033;" value="CU-03 — Buscar un entrenador, reservar una sesión y recibir un programa adaptado" vertex="1">
+          <mxGeometry height="40" width="1270" x="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sistema" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=12;spacingLeft=16;fontSize=18;fontColor=#1E3A5F;strokeColor=#1E3A5F;strokeWidth=2;fillColor=#FFFFFF;" value="&lt;b&gt;Sistema FitConnect&lt;/b&gt;" vertex="1">
+          <mxGeometry height="760" width="1250" x="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;fontStyle=1;fontColor=#1E3A5F;strokeColor=#1E3A5F;" value="Usuario" vertex="1">
+          <mxGeometry height="150" width="90" x="45" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="entrenador" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;fontStyle=1;fontColor=#1E3A5F;strokeColor=#1E3A5F;" value="Entrenador" vertex="1">
+          <mxGeometry height="150" width="90" x="1510" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="stripe" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#4C1D95;strokeColor=#7C3AED;strokeWidth=2;fillColor=#F5F3FF;" value="&lt;b&gt;&amp;laquo;sistema externo&amp;raquo;&lt;/b&gt;&lt;br&gt;Stripe" vertex="1">
+          <mxGeometry height="70" width="145" x="1490" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="cu03" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#172033;strokeColor=#2563EB;strokeWidth=3;fillColor=#DBEAFE;" value="&lt;b&gt;Buscar un entrenador,&lt;br&gt;reservar una sesión y recibir&lt;br&gt;un programa adaptado&lt;/b&gt;" vertex="1">
+          <mxGeometry height="120" width="310" x="230" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="buscar" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Buscar y filtrar entrenadores" vertex="1">
+          <mxGeometry height="75" width="310" x="780" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="consultar-perfil" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Consultar el perfil y distinguir&lt;br&gt;la información verificada" vertex="1">
+          <mxGeometry height="75" width="310" x="780" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="enviar-solicitud" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Enviar una solicitud&lt;br&gt;al entrenador" vertex="1">
+          <mxGeometry height="75" width="310" x="780" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="responder-solicitud" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Aceptar o rechazar&lt;br&gt;la solicitud" vertex="1">
+          <mxGeometry height="75" width="310" x="780" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="reservar" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Seleccionar disponibilidad&lt;br&gt;y reservar una sesión" vertex="1">
+          <mxGeometry height="75" width="310" x="780" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="pagar" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Mostrar el importe y la comisión&lt;br&gt;y procesar el pago" vertex="1">
+          <mxGeometry height="75" width="310" x="780" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="asignar-programa" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Consultar información autorizada y&lt;br&gt;asignar o adaptar un programa básico" vertex="1">
+          <mxGeometry height="75" width="310" x="780" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cancelar" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#7C2D12;strokeColor=#D97706;strokeWidth=2;fillColor=#FFF7ED;" value="Cancelar o reprogramar&lt;br&gt;la sesión" vertex="1">
+          <mxGeometry height="75" width="260" x="1170" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="reembolsar" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#7C2D12;strokeColor=#D97706;strokeWidth=2;fillColor=#FFF7ED;" value="Procesar un reembolso" vertex="1">
+          <mxGeometry height="75" width="260" x="1170" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-usuario" edge="1" parent="1" source="usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#1E3A5F;strokeWidth=2;" target="cu03" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc-buscar" edge="1" parent="1" source="cu03" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.07;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="buscar" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.5014" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="500" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-perfil" edge="1" parent="1" source="cu03" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.21;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="consultar-perfil" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.3858" y="-78" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="550" y="252.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-enviar" edge="1" parent="1" source="cu03" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.35;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="enviar-solicitud" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.1714" y="109" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="580" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-responder" edge="1" parent="1" source="cu03" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.49;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="responder-solicitud" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="-0.04" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-reservar" edge="1" parent="1" source="cu03" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.63;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="reservar" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.1518" y="18" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="560" y="537.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-pagar" edge="1" parent="1" source="cu03" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.77;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pagar" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.3683" y="11" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="530" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-programa" edge="1" parent="1" source="cu03" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.93;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="asignar-programa" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.5174" y="19" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="503.1" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext-cancelar" edge="1" parent="1" source="cancelar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#D97706;fontSize=13;fontStyle=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="reservar" value="&amp;laquo;extend&amp;raquo;">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext-reembolso" edge="1" parent="1" source="reembolsar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#D97706;fontSize=13;fontStyle=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pagar" value="&amp;laquo;extend&amp;raquo;">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="entrenador-responder" edge="1" parent="1" source="entrenador" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#1E3A5F;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="responder-solicitud" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="entrenador-programa" edge="1" parent="1" source="entrenador" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#1E3A5F;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="asignar-programa" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="440" />
+              <mxPoint x="1470" y="738" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stripe-pago" edge="1" parent="1" source="stripe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#7C3AED;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pagar" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="635" />
+              <mxPoint x="1470" y="680" />
+              <mxPoint x="1030" y="680" />
+              <mxPoint x="1030" y="633" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="der-fitconnect-conceptual" name="DER FitConnect">
+    <mxGraphModel dx="1499" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1350" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=28;fontStyle=1;fontColor=#17324D;" value="FitConnect — Diagrama Entidad-Relación" vertex="1">
+          <mxGeometry height="44" width="1300" x="450" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitulo" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#52657A;" value="Modelo conceptual: entidades, relaciones y cardinalidades" vertex="1">
+          <mxGeometry height="30" width="1300" x="450" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="leyenda" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#44546A;strokeColor=#B8C6D1;fillColor=#F7F9FB;" value="Notación : 1 = obligatorio y único   ·   0..1 = opcional y único   ·   0..N = cero o muchos   ·   1..N = uno o muchos" vertex="1">
+          <mxGeometry height="46" width="1250" x="475" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365D;strokeColor=#4472C4;strokeWidth=3;fillColor=#D9EAF7;" value="USUARIO" vertex="1">
+          <mxGeometry height="76" width="300" x="100" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="reserva" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1F4E36;strokeColor=#548235;strokeWidth=3;fillColor=#E2F0D9;" value="RESERVA&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;entidad asociativa&lt;/font&gt;" vertex="1">
+          <mxGeometry height="76" width="300" x="850" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="entrenador" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365D;strokeColor=#4472C4;strokeWidth=3;fillColor=#D9EAF7;" value="ENTRENADOR" vertex="1">
+          <mxGeometry height="76" width="300" x="1600" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="asignacion" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;fontColor=#1F4E36;strokeColor=#548235;strokeWidth=3;fillColor=#E2F0D9;" value="ASIGNACION_PROGRAMA&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;entidad asociativa&lt;/font&gt;" vertex="1">
+          <mxGeometry height="76" width="330" x="300" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="programa" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#4C2A69;strokeColor=#8064A2;strokeWidth=3;fillColor=#E4DFEC;" value="PROGRAMA" vertex="1">
+          <mxGeometry height="76" width="300" x="1050" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="programa_ejercicio" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;fontColor=#4C2A69;strokeColor=#8064A2;strokeWidth=3;fillColor=#E4DFEC;" value="PROGRAMA_EJERCICIO&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;entidad asociativa&lt;/font&gt;" vertex="1">
+          <mxGeometry height="76" width="310" x="1490" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ejercicio" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#4C2A69;strokeColor=#8064A2;strokeWidth=3;fillColor=#E4DFEC;" value="EJERCICIO" vertex="1">
+          <mxGeometry height="76" width="270" x="1910" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="sesion" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;fontColor=#7F4125;strokeColor=#C65911;strokeWidth=3;fillColor=#FCE4D6;" value="SESION_ENTRENAMIENTO" vertex="1">
+          <mxGeometry height="76" width="330" x="300" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="resultado" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;fontColor=#7F4125;strokeColor=#C65911;strokeWidth=3;fillColor=#FCE4D6;" value="RESULTADO_EJERCICIO" vertex="1">
+          <mxGeometry height="76" width="330" x="1120" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_usuario_reserva" edge="1" parent="1" source="usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="reserva" value="realiza  [1 : 0..N]">
+          <mxGeometry relative="1" x="0.0222" y="18" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_entrenador_reserva" edge="1" parent="1" source="entrenador" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="reserva" value="recibe  [1 : 0..N]">
+          <mxGeometry relative="1" x="0.0222" y="-18" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_usuario_asignacion" edge="1" parent="1" source="usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=0;entryDx=0;entryDy=0;" target="asignacion" value="recibe  [1 : 0..N]">
+          <mxGeometry relative="1" x="0.1127" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="250" y="470" />
+              <mxPoint x="448" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_entrenador_asignacion" edge="1" parent="1" source="entrenador" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="asignacion" value="asigna  [0..1 : 0..N]">
+          <mxGeometry relative="1" x="0.0397" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1675" y="470" />
+              <mxPoint x="547.5" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_entrenador_programa" edge="1" parent="1" source="entrenador" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="programa" value="crea  [0..1 : 0..N]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1825" y="500" />
+              <mxPoint x="1200" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_programa_asignacion" edge="1" parent="1" source="programa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="asignacion" value="se asigna mediante  [1 : 0..N]">
+          <mxGeometry relative="1" y="-18" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_programa_programa_ejercicio" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="programa_ejercicio" value="contiene  [1 : 1..N]">
+          <mxGeometry relative="1" x="0.0824" y="18" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320" y="627.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_ejercicio_programa_ejercicio" edge="1" parent="1" source="ejercicio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="programa_ejercicio" value="participa en&lt;div&gt;&amp;nbsp;[1 : 0..N]&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0909" y="-28" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_asignacion_sesion" edge="1" parent="1" source="asignacion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="sesion" value="origina  [1 : 0..N]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_sesion_resultado" edge="1" parent="1" source="sesion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="resultado" value="contiene  [1 : 0..N]">
+          <mxGeometry relative="1" x="-0.0204" y="18" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_programa_ejercicio_resultado" edge="1" parent="1" source="programa_ejercicio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;strokeWidth=2;strokeColor=#5B6770;fontSize=14;fontStyle=1;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.65;entryY=0;entryDx=0;entryDy=0;" target="resultado" value="genera registros en  [1 : 0..N]">
+          <mxGeometry relative="1" x="0.0203" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1670" y="666" />
+              <mxPoint x="1670" y="770" />
+              <mxPoint x="1334.5" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_programa_version" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;loopDirection=south;startArrow=ERzeroToOne;startFill=0;endArrow=ERzeroToOne;endFill=0;strokeWidth=2;strokeColor=#8064A2;fontSize=13;fontStyle=1;labelBackgroundColor=#FFFFFF;" target="programa" value="versiona  [0..1 : 0..1]">
+          <mxGeometry relative="1" x="-0.0169" y="14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1300" y="686" />
+              <mxPoint x="1100" y="686" />
+            </Array>
+            <mxPoint x="1300" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_resultado_correccion" edge="1" parent="1" source="resultado" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;loopDirection=south;startArrow=ERzeroToOne;startFill=0;endArrow=ERzeroToOne;endFill=0;strokeWidth=2;strokeColor=#C65911;fontSize=13;fontStyle=1;labelBackgroundColor=#FFFFFF;entryX=0.182;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="resultado" value="corrige  [0..1 : 0..1]">
+          <mxGeometry relative="1" x="0.0068" y="14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nota_asociativas" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontColor=#44546A;strokeColor=#A5A5A5;fillColor=#FFFDF2;dashed=1;" value="Las relaciones N:M se resuelven mediante entidades asociativas: RESERVA, ASIGNACION_PROGRAMA y PROGRAMA_EJERCICIO." vertex="1">
+          <mxGeometry height="52" width="1440" x="380" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="nota_fk" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=2;fontColor=#6B7785;" value="Las claves foráneas necesarias se identifican en el apartado B del documento del punto 6." vertex="1">
+          <mxGeometry height="30" width="1200" x="500" y="1100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

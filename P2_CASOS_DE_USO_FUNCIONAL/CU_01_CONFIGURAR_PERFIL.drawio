@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="cu01-fitconnect" name="CU-01">
+    <mxGraphModel dx="1414" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#172033;" value="CU-01 — Configurar el perfil, confirmar un programa e iniciar la primera rutina" vertex="1">
+          <mxGeometry height="40" width="1140" x="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sistema" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=12;spacingLeft=16;fontSize=18;fontColor=#1E3A5F;strokeColor=#1E3A5F;strokeWidth=2;fillColor=#FFFFFF;" value="&lt;b&gt;Sistema FitConnect&lt;/b&gt;" vertex="1">
+          <mxGeometry height="650" width="1140" x="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;fontStyle=1;fontColor=#1E3A5F;strokeColor=#1E3A5F;" value="Usuario" vertex="1">
+          <mxGeometry height="150" width="90" x="45" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="cu01" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#172033;strokeColor=#2563EB;strokeWidth=3;fillColor=#DBEAFE;" value="&lt;b&gt;Configurar el perfil,&lt;br&gt;confirmar un programa&lt;br&gt;e iniciar la primera rutina&lt;/b&gt;" vertex="1">
+          <mxGeometry height="115" width="280" x="280" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="registro" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Realizar registro mínimo" vertex="1">
+          <mxGeometry height="75" width="260" x="680" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="perfil" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Configurar perfil" vertex="1">
+          <mxGeometry height="75" width="260" x="680" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="recomendacion" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Obtener y explicar el&lt;br&gt;programa recomendado" vertex="1">
+          <mxGeometry height="75" width="260" x="680" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="confirmar" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Confirmar programa recomendado" vertex="1">
+          <mxGeometry height="75" width="260" x="680" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="iniciar" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#172033;strokeColor=#2563EB;strokeWidth=2;fillColor=#F8FAFC;" value="Iniciar la primera rutina" vertex="1">
+          <mxGeometry height="75" width="260" x="680" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="molestias" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#7C2D12;strokeColor=#D97706;strokeWidth=2;fillColor=#FFF7ED;" value="Informar molestias&lt;br&gt;o limitaciones" vertex="1">
+          <mxGeometry height="75" width="240" x="1040" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="cambiar" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#7C2D12;strokeColor=#D97706;strokeWidth=2;fillColor=#FFF7ED;" value="Seleccionar otro&lt;br&gt;programa" vertex="1">
+          <mxGeometry height="75" width="240" x="1040" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="advertencias" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#14532D;strokeColor=#16A34A;strokeWidth=2;fillColor=#F0FDF4;" value="Mostrar advertencias&lt;br&gt;de seguridad" vertex="1">
+          <mxGeometry height="75" width="240" x="1040" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-cu" edge="1" parent="1" source="usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeColor=#1E3A5F;strokeWidth=2;" target="cu01" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="382.52" />
+              <mxPoint x="160" y="382.52" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-registro" edge="1" parent="1" source="cu01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.10;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="registro" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.8233" y="8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-perfil" edge="1" parent="1" source="cu01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.30;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="perfil" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.7376" y="13" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-recomendacion" edge="1" parent="1" source="cu01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.50;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="recomendacion" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.5" y="13" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-confirmar" edge="1" parent="1" source="cu01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.70;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="confirmar" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.7377" y="13" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-iniciar" edge="1" parent="1" source="cu01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#475569;fontSize=13;fontStyle=2;exitX=1;exitY=0.90;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iniciar" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="0.8308" y="13" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext-molestias" edge="1" parent="1" source="molestias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#D97706;fontSize=13;fontStyle=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="perfil" value="&amp;laquo;extend&amp;raquo;">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext-cambiar" edge="1" parent="1" source="cambiar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#D97706;fontSize=13;fontStyle=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="confirmar" value="&amp;laquo;extend&amp;raquo;">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc-advertencias" edge="1" parent="1" source="iniciar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4;endArrow=open;endFill=0;strokeColor=#16A34A;fontSize=13;fontStyle=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="advertencias" value="&amp;laquo;include&amp;raquo;">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

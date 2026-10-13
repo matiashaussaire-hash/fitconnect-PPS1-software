@@ -1,0 +1,328 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="ds02-fitconnect" name="DS-02">
+    <mxGraphModel dx="2246" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2050" pageHeight="2010" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=26;fontStyle=1;fontColor=#17324D;" value="DS-02 — Realizar una rutina, registrar o corregir resultados y sincronizarlos" vertex="1">
+          <mxGeometry height="42" width="1750" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitulo" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=17;fontColor=#44546A;" value="Escenario exitoso: guardado local, corrección opcional y sincronización posterior sin duplicaciones" vertex="1">
+          <mxGeometry height="30" width="1750" x="150" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="aclaracion" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=2;fontColor=#64748B;" value="El dispositivo comienza sin conexión y la recupera después de finalizar la rutina. No se representan errores definitivos de sincronización." vertex="1">
+          <mxGeometry height="26" width="1610" x="220" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;fontStyle=1;fontColor=#2F2459;strokeColor=#7659B5;strokeWidth=2;" value="Usuario" vertex="1">
+          <mxGeometry height="90" width="90" x="95" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="app" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#2F2459;strokeColor=#7659B5;strokeWidth=2;fillColor=#F1EEFC;" value="Aplicación móvil" vertex="1">
+          <mxGeometry height="65" width="240" x="380" y="160.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlite" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=14;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#2F2459;strokeColor=#7659B5;strokeWidth=2;fillColor=#F1EEFC;" value="SQLite local" vertex="1">
+          <mxGeometry height="90" width="220" x="800" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="sistema" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#2F2459;strokeColor=#7659B5;strokeWidth=2;fillColor=#F1EEFC;" value="Sistema FitConnect" vertex="1">
+          <mxGeometry height="65" width="260" x="1240" y="160.5" as="geometry" />
+        </mxCell>
+        <mxCell id="postgres" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=14;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#2F2459;strokeColor=#7659B5;strokeWidth=2;fillColor=#F1EEFC;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="90" width="220" x="1690" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="vida-u" parent="1" style="shape=line;direction=south;html=1;strokeColor=#7659B5;strokeWidth=1.4;dashed=1;dashPattern=5 5;" value="" vertex="1">
+          <mxGeometry height="1703" width="1" x="139.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vida-a" parent="1" style="shape=line;direction=south;html=1;strokeColor=#7659B5;strokeWidth=1.4;dashed=1;dashPattern=5 5;" value="" vertex="1">
+          <mxGeometry height="1735" width="1" x="499.5" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="vida-l" parent="1" style="shape=line;direction=south;html=1;strokeColor=#7659B5;strokeWidth=1.4;dashed=1;dashPattern=5 5;" value="" vertex="1">
+          <mxGeometry height="1725" width="1" x="909.5" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="vida-s" parent="1" style="shape=line;direction=south;html=1;strokeColor=#7659B5;strokeWidth=1.4;dashed=1;dashPattern=5 5;" value="" vertex="1">
+          <mxGeometry height="1735" width="1" x="1369.5" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="vida-p" parent="1" style="shape=line;direction=south;html=1;strokeColor=#7659B5;strokeWidth=1.4;dashed=1;dashPattern=5 5;" value="" vertex="1">
+          <mxGeometry height="1725" width="1" x="1799.5" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="act-a1" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="165" width="14" x="493" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="act-l1" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="60" width="14" x="903" y="323" as="geometry" />
+        </mxCell>
+        <mxCell id="act-a2" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="285" width="14" x="493" y="523" as="geometry" />
+        </mxCell>
+        <mxCell id="act-l2" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="60" width="14" x="903" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="act-a3" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="165" width="14" x="493" y="908" as="geometry" />
+        </mxCell>
+        <mxCell id="act-l3" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="60" width="14" x="903" y="958" as="geometry" />
+        </mxCell>
+        <mxCell id="act-a4" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="170" width="14" x="493" y="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="act-l4" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="60" width="14" x="903" y="1198" as="geometry" />
+        </mxCell>
+        <mxCell id="act-a5" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="590" width="14" x="493" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="act-l5" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="60" width="14" x="903" y="1438" as="geometry" />
+        </mxCell>
+        <mxCell id="act-s1" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="260" width="14" x="1363" y="1538" as="geometry" />
+        </mxCell>
+        <mxCell id="act-p1" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="60" width="14" x="1793" y="1678" as="geometry" />
+        </mxCell>
+        <mxCell id="act-l6" parent="1" style="rounded=0;html=1;strokeColor=#7659B5;strokeWidth=1.4;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="60" width="14" x="903" y="1828" as="geometry" />
+        </mxCell>
+        <mxCell id="loop-frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7659B5;strokeWidth=1.6;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="365" width="1870" x="60" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="loop-tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2F2459;strokeColor=#7659B5;strokeWidth=1.6;fillColor=#F1EEFC;" value="loop" vertex="1">
+          <mxGeometry height="30" width="65" x="60" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="loop-cond" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=2;fontColor=#44546A;" value="[por cada ejercicio de la rutina]" vertex="1">
+          <mxGeometry height="26" width="330" x="150" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="opt-frame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7659B5;strokeWidth=1.6;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="245" width="1870" x="60" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="opt-tab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2F2459;strokeColor=#7659B5;strokeWidth=1.6;fillColor=#F1EEFC;" value="opt" vertex="1">
+          <mxGeometry height="30" width="55" x="60" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="opt-cond" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=2;fontColor=#44546A;" value="[el usuario corrige un resultado]" vertex="1">
+          <mxGeometry height="26" width="330" x="150" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" source="vida-u" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;exitX=0.011;exitY=-1.751;exitDx=0;exitDy=0;exitPerimeter=0;" value="1. iniciarRutina(programa)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="150" y="280" as="sourcePoint" />
+            <mxPoint x="490" y="278.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;" value="2. obtenerRutinaDescargada(idprogram)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="900" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="3. rutina, ejercicios y descansos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="900" y="380" as="sourcePoint" />
+            <mxPoint x="510" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;entryX=0.1;entryY=-1.308;entryDx=0;entryDy=0;entryPerimeter=0;" target="vida-u" value="4. mostrarRutina()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="490" y="430" as="sourcePoint" />
+            <mxPoint x="150" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" source="loop-frame" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;exitX=0.043;exitY=0.17;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. comenzarEjercicio()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="150" y="530" as="sourcePoint" />
+            <mxPoint x="490" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;entryX=0.241;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" target="loop-frame" value="6. iniciarTemporizador()">
+          <mxGeometry relative="1" x="-0.6959" y="18" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="880" y="578" />
+              <mxPoint x="880" y="627.9" />
+            </Array>
+            <mxPoint x="510" y="578" as="sourcePoint" />
+            <mxPoint x="550.6703910614525" y="628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="7. mostrarInstruccionesYTemporizador()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="500" y="643" as="sourcePoint" />
+            <mxPoint x="140" y="643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;" value="8. registrarResultado(series, repeticiones, tiempo)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="140" y="683" as="sourcePoint" />
+            <mxPoint x="500" y="683" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=13;labelBackgroundColor=#FFFFFF;entryX=0.449;entryY=0.69;entryDx=0;entryDy=0;entryPerimeter=0;" target="loop-frame" value="9. guardarResultadoLocal(registro, operation_id, PENDIENTE)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="510" y="720" as="sourcePoint" />
+            <mxPoint x="900" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="10. guardado local confirmado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="900" y="770" as="sourcePoint" />
+            <mxPoint x="510" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10b" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="11. confirmarGuardadoLocal()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="490" y="808" as="sourcePoint" />
+            <mxPoint x="140" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11" edge="1" parent="1" source="opt-frame" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;entryX=0.23;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.043;exitY=0.233;exitDx=0;exitDy=0;exitPerimeter=0;" target="opt-frame" value="12. corregirResultado(registroId, nuevosDatos)">
+          <mxGeometry relative="1" x="0.0271" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="140" y="913" as="sourcePoint" />
+            <mxPoint x="500" y="913" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m12" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=13;labelBackgroundColor=#FFFFFF;" value="13. guardarCorrecciónLocal(cambio, operation_id, versión)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="500" y="963" as="sourcePoint" />
+            <mxPoint x="910" y="963" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m13" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="14. corrección guardada como pendiente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="910" y="1013" as="sourcePoint" />
+            <mxPoint x="500" y="1013" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m14" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="15. mostrarCorrecciónGuardada()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="490" y="1060" as="sourcePoint" />
+            <mxPoint x="140" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m15" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;" value="16. finalizarRutina()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="140" y="1153" as="sourcePoint" />
+            <mxPoint x="490" y="1153" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m16" edge="1" parent="1" source="act-a4" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;exitX=1.138;exitY=0.309;exitDx=0;exitDy=0;exitPerimeter=0;" value="17. guardarFinalizaciónLocal(sesión, PENDIENTE)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="500" y="1203" as="sourcePoint" />
+            <mxPoint x="900" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m17" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="18. sesión finalizada localmente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="900" y="1250" as="sourcePoint" />
+            <mxPoint x="510" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m18" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;entryX=0.611;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="vida-u" value="19. mostrarResumen(estado: pendiente)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="490" y="1300" as="sourcePoint" />
+            <mxPoint x="150" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;entryX=1.195;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;" target="act-a5" value="20. detectarConectividadRestablecida()">
+          <mxGeometry relative="1" x="-0.0005" as="geometry">
+            <mxPoint x="72" y="-9" as="offset" />
+            <Array as="points">
+              <mxPoint x="650" y="1353" />
+              <mxPoint x="650" y="1402.9" />
+            </Array>
+            <mxPoint x="510" y="1353" as="sourcePoint" />
+            <mxPoint x="500" y="1403" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m20" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;" value="21. obtenerOperacionesPendientes()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="510" y="1440" as="sourcePoint" />
+            <mxPoint x="900" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m21" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#FFFFFF;" value="22. resultados, correcciones y finalización pendientes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="900" y="1490" as="sourcePoint" />
+            <mxPoint x="510" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m22" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;" value="23. sincronizarOperaciones(operation_id, versión, datos)">
+          <mxGeometry relative="1" x="0.5115" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="510" y="1540" as="sourcePoint" />
+            <mxPoint x="1360" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;" value="24. validarIdempotenciaYVersiones()">
+          <mxGeometry relative="1" x="-0.5493" y="13" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1710" y="1593" />
+              <mxPoint x="1710" y="1643" />
+            </Array>
+            <mxPoint x="1380" y="1593" as="sourcePoint" />
+            <mxPoint x="1380" y="1643" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m24" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=14;labelBackgroundColor=#FFFFFF;entryX=-0.151;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;" target="act-p1" value="25. persistirEventosYEstadoDeSesión()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="1380" y="1680" as="sourcePoint" />
+            <mxPoint x="1800" y="1683" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m25" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="26. operaciones confirmadas sin duplicados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="1790" y="1733" as="sourcePoint" />
+            <mxPoint x="1380" y="1733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m26" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="27. sincronización exitosa">
+          <mxGeometry relative="1" x="-0.5351" y="-13" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1360" y="1790" as="sourcePoint" />
+            <mxPoint x="510" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m27" edge="1" parent="1" source="act-a5" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;strokeWidth=1.6;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=1.175;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;" value="28. marcarOperacionesComoSincronizadas(operation_id)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="500" y="1833" as="sourcePoint" />
+            <mxPoint x="900" y="1833" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m28" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="29. estado local actualizado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="900" y="1880" as="sourcePoint" />
+            <mxPoint x="510" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29" edge="1" parent="1" style="edgeStyle=none;html=1;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#555555;strokeWidth=1.5;fontSize=14;labelBackgroundColor=#FFFFFF;" value="30. mostrarProgresoYSincronizaciónCompleta()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+            <mxPoint x="490" y="1933" as="sourcePoint" />
+            <mxPoint x="140" y="1933" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
